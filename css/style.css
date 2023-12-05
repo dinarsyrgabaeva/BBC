@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+#header{
+    background: rgb(184, 3, 3);
+    padding: 16px 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.header span{
+    color: rgb(184, 3, 3);
+    background: rgb(248, 247, 247);
+    margin: 0px 3px;
+    font-size: 24px;
+    padding: 0px 5px;
+    font-weight: 700;
+    border-radius: 1px;
+}
+.header h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 760;
+    text-transform: uppercase;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+}
+
+.red-block{
+    background: rgb(184, 0, 0);
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+ 
+
+}
+.red-block-title{
+    color: white;
+}
+.navbar{
+    padding: 19px 0;
+    border-bottom:1px solid grey ;
+    position: relative;
+    display:flex;
+    gap: 20px;
+    
+   
+}
+.navbar a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: -26px;
+    left: 0;
+}
+.navbar :hover::after{
+    width: 100%;
+    transition: 2s;
+    text-decoration: underline;
+}
+.example {
+    text-decoration: none;
+    position: relative;
+    transition: 2s all;
+    
+}
+
+.example:hover {
+    text-decoration: none;
+
+}
+
+.example:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px; 
+    background-color: red;
+    transition: 2s all;
+    top: 35px;
+    text-underline-offset: 20px;
+    
+    
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 5px;
+}
+
+#footer{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    
+}
+.nav-list{
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+    padding: 10px 0;
+    
+}
+.nav-list-item{
+    font-size: 19px;
+    font-weight: bold;
+}
+.home-content{
+    display: flex;
+    column-gap: 20px;
+}
+.home-img,
+.home-info{
+    width: 50%;
+}
+.home-info{
+    display: flex;
+    flex-direction: column;
+}
+.home-info-tittle{
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 34px;
+}
+
+.home-info-tittle .span {
+    color: red;
+}
+.home{
+    padding: 35px 0;
+}
+.content-block{
+    display: flex;
+    gap: 30px 20px;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    width: calc((100% - 90px)/4);
+    height: 300px;
+    background:white ;
+}
+.box-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.box-two-size{
+    width: calc((100% - 30px)/2)
+}
+.section-two{
+    display: flex;
+    padding: 35px 0;
+}
+.section-three{
+    display: flex;
+    padding: 35px 35px;
+
+}
+.box-four-size{
+    display: flex;
+    gap: 30px;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.home-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.home-box{
+    width: calc((100% - 40px)/2);
+    display: flex;
+    column-gap: 45px;
+}
+.box3{
+    width: calc((100% - 40px)/2);
+    display: flex;
+}
+
+
+.nav-list-item2{
+    display: flex;
+}
+.section-two-link{
+    margin: 10px 0px;
+}
+.box-title{
+    font-size: 25px;
+    margin: 0px 0px 30px 0px;
+}
+.itself-info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+hr{
+    margin: 30px 0px;
+}
+.info-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
